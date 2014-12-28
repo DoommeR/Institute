@@ -1,4 +1,4 @@
-#makefile for creator and convertor
+#makefile for creator and convertor.
 create: create.o converter.o
 	gcc -o create create.o
 	gcc -o converter converter.o
